@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for SoloTrades - Contractor & Trades Invoicing, Estimates, and Job Management Mobile Application.">
+  <title>Privacy Policy - SoloTrades</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --primary-light: #eff6ff;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --bg-page: #f8fafc;
+      --bg-card: #ffffff;
+      --border-color: #e2e8f0;
+      --accent: #0ea5e9;
+      --radius: 12px;
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 40px 20px 80px 20px;
+    }
+
+    /* Header styling */
+    header {
+      background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 50%, #0284c7 100%);
+      color: #ffffff;
+      padding: 48px 32px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-md);
+      margin-bottom: 32px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -20%;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0) 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .app-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.18);
+      backdrop-filter: blur(8px);
+      padding: 6px 16px;
+      border-radius: 9999px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    header h1 {
+      font-size: 36px;
+      font-weight: 800;
+      margin-bottom: 10px;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.85);
+      font-weight: 400;
+    }
+
+    /* Content Cards */
+    .card {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      padding: 36px;
+      margin-bottom: 24px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-bottom: 2px solid var(--primary-light);
+      padding-bottom: 10px;
+    }
+
+    h2 .num {
+      background-color: var(--primary);
+      color: white;
+      font-size: 14px;
+      font-weight: 700;
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h3 {
+      font-size: 17px;
+      font-weight: 600;
+      color: #334155;
+      margin: 20px 0 8px 0;
+    }
+
+    p {
+      margin-bottom: 16px;
+      color: #334155;
+      font-size: 15px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 12px 0 20px 24px;
+      color: #334155;
+    }
+
+    li {
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+
+    strong {
+      color: #0f172a;
+      font-weight: 600;
+    }
+
+    /* Highlight box */
+    .highlight-box {
+      background-color: var(--primary-light);
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: 6px;
+      margin: 16px 0;
+      font-size: 14.5px;
+      color: #1e3a8a;
+    }
+
+    /* Third party links */
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.15s ease;
+    }
+
+    a:hover {
+      color: var(--primary-dark);
+      text-decoration: underline;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .service-item {
+      background: #f1f5f9;
+      border: 1px solid var(--border-color);
+      padding: 16px;
+      border-radius: 8px;
+    }
+
+    .service-item h4 {
+      font-size: 15px;
+      font-weight: 600;
+      color: #0f172a;
+      margin-bottom: 6px;
+    }
+
+    .service-item p {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding-top: 24px;
+      color: var(--text-muted);
+      font-size: 14px;
+      border-top: 1px solid var(--border-color);
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        padding: 20px 14px;
+      }
+      header {
+        padding: 32px 18px;
+      }
+      header h1 {
+        font-size: 26px;
+      }
+      .card {
+        padding: 24px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="app-badge">SoloTrades • Mobile Application</div>
+      <h1>Privacy Policy</h1>
+      <p>Last updated & effective date: October 14, 2026</p>
+    </header>
+
+    <!-- SECTION 1 -->
+    <section class="card">
+      <h2><span class="num">1</span> Overview & Commitment</h2>
+      <p>
+        Welcome to <strong>SoloTrades</strong> ("we," "our," or "us"). We build tools specifically designed for independent contractors, tradespeople, freelancers, and service professionals to manage their jobs, create estimates, generate professional invoices, collect client signatures, and manage customer records.
+      </p>
+      <p>
+        Your privacy and trust are paramount to us. This Privacy Policy describes how SoloTrades collects, uses, stores, and protects your information when you use our mobile application (the "App") available on Google Play.
+      </p>
+      <div class="highlight-box">
+        <strong>Privacy by Design:</strong> SoloTrades operates primarily with a local-first architecture. Your clients' contact details, job descriptions, estimates, invoices, and photos remain on your personal mobile device by default unless you choose to synchronize with secure cloud services.
+      </div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="card">
+      <h2><span class="num">2</span> Information We Collect & How We Obtain It</h2>
+      <p>
+        Depending on how you use SoloTrades, we may handle the following categories of information:
+      </p>
+
+      <h3>A. Business & Operational Data (User-Provided)</h3>
+      <ul>
+        <li><strong>Company Profile:</strong> Business name, logo, phone number, email address, physical address, and tax/VAT details used on your invoice templates.</li>
+        <li><strong>Customer & Client Records:</strong> Client names, phone numbers, email addresses, and service addresses entered to generate estimates and invoices or navigate to job sites.</li>
+        <li><strong>Job & Financial Records:</strong> Service descriptions, scheduled dates, pricing items, estimate details, invoices, payment status records, and notes.</li>
+        <li><strong>Digital Signatures:</strong> Signature strokes provided by you or your customers to authorize estimates and invoices directly on your screen.</li>
+      </ul>
+
+      <h3>B. Photos & Device Files</h3>
+      <p>
+        When you capture or upload photos for job documentation, receipts, or company logo branding, the app accesses your device camera and gallery only with your explicit runtime permission.
+      </p>
+
+      <h3>C. Device & Technical Information</h3>
+      <p>
+        To ensure app stability, deliver relevant ads, and verify subscription status, standard diagnostic information may be processed automatically, including:
+      </p>
+      <ul>
+        <li>Device model, operating system version, and system language.</li>
+        <li>Anonymous Advertising ID (Google Advertising ID) for ad delivery and analytics.</li>
+        <li>Crash logs and performance metrics to identify and fix technical glitches.</li>
+      </ul>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section class="card">
+      <h2><span class="num">3</span> Device Permissions Used & Why</h2>
+      <p>SoloTrades requests minimal Android permissions strictly necessary for its features:</p>
+      <ul>
+        <li><strong>INTERNET & ACCESS_NETWORK_STATE:</strong> Required to verify in-app purchases, display advertisements via Google AdMob, and synchronize cloud backup if enabled.</li>
+        <li><strong>CAMERA & READ_MEDIA_IMAGES (Storage):</strong> Required only if you decide to take photos on job sites, upload receipts, or customize your invoices with your company logo.</li>
+        <li><strong>POST_NOTIFICATIONS:</strong> Used on Android 13+ to provide reminders for upcoming scheduled jobs, overdue invoice notices, and calendar alerts. You can disable notifications at any time in device settings.</li>
+      </ul>
+    </section>
+
+    <!-- SECTION 4 -->
+    <section class="card">
+      <h2><span class="num">4</span> Third-Party Services & Integrations</h2>
+      <p>
+        To support our free tier and provide industry-standard in-app billing and analytics, we partner with reputable third-party service providers. These third parties may process pseudonymous data in accordance with their respective privacy policies:
+      </p>
+
+      <div class="service-grid">
+        <div class="service-item">
+          <h4>Google AdMob</h4>
+          <p>Displays banner and interstitial advertisements to support free usage of the app.</p>
+          <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Advertising Privacy Policy &rarr;</a>
+        </div>
+
+        <div class="service-item">
+          <h4>RevenueCat & Google Play Billing</h4>
+          <p>Manages subscription status, receipt validation, and premium feature entitlement. Payment details are handled securely by Google Play; we never have access to your credit card or banking details.</p>
+          <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">RevenueCat Privacy Policy &rarr;</a>
+        </div>
+
+        <div class="service-item">
+          <h4>Google Play Services & Firebase</h4>
+          <p>Provides core infrastructure, app distribution, optional cloud data synchronization, and crash analytics.</p>
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5 -->
+    <section class="card">
+      <h2><span class="num">5</span> Data Storage, Retention, and Security</h2>
+      <p>
+        We employ robust technical and organizational safeguards to ensure your business data is treated confidentially:
+      </p>
+      <ul>
+        <li><strong>Local Storage:</strong> Your primary customer database, jobs, quotes, and invoice files reside in sandboxed local device storage accessible only by the SoloTrades application.</li>
+        <li><strong>Data in Transit:</strong> Any communications with third-party APIs (such as subscription status or cloud backup) are encrypted using HTTPS/TLS protocols.</li>
+        <li><strong>No Data Brokering:</strong> We do <strong>not</strong> sell, rent, or trade your personal information or your clients' personal data to third-party data brokers or marketing lists.</li>
+      </ul>
+    </section>
+
+    <!-- SECTION 6 -->
+    <section class="card">
+      <h2><span class="num">6</span> Your Rights & Data Control</h2>
+      <p>
+        You retain full control over your data within SoloTrades:
+      </p>
+      <ul>
+        <li><strong>Access & Modification:</strong> You can edit any customer, invoice, job, or estimate at any time directly through the app.</li>
+        <li><strong>Deletion:</strong> You can permanently delete any individual client, job, estimate, or invoice using the built-in delete functions. Uninstalling the app or clearing application storage immediately erases all locally stored database records from your phone.</li>
+        <li><strong>Personalized Advertising Opt-Out:</strong> You may reset or opt-out of personalized advertisements at any time via your Android device settings: <em>Settings &rarr; Google &rarr; Ads &rarr; Delete advertising ID</em>.</li>
+      </ul>
+    </section>
+
+    <!-- SECTION 7 -->
+    <section class="card">
+      <h2><span class="num">7</span> Children's Privacy</h2>
+      <p>
+        SoloTrades is a business management tool intended for commercial and professional use by contractors, tradespeople, and working adults. We do not knowingly target, market to, or collect any personal information from children under the age of 13 (or under the age of 16 in the European Economic Area).
+      </p>
+    </section>
+
+    <!-- SECTION 8 -->
+    <section class="card">
+      <h2><span class="num">8</span> Changes to This Policy</h2>
+      <p>
+        We may periodically update this Privacy Policy to reflect app enhancements, new features, or updated legal standards. Any revisions will be published here with an updated "Effective Date." We recommend reviewing this page periodically.
+      </p>
+    </section>
+
+    <!-- SECTION 9 -->
+    <section class="card">
+      <h2><span class="num">9</span> Contact Us</h2>
+      <p>
+        If you have questions, comments, or requests regarding this Privacy Policy or the security of your data, please contact our developer support team:
+      </p>
+      <ul>
+        <li><strong>Application:</strong> SoloTrades</li>
+        <li><strong>Developer:</strong> SoloTrades Team</li>
+        <li><strong>Email:</strong> <a href="mailto:support@solotrades.app">support@solotrades.app</a> (or your personal developer email)</li>
+        <li><strong>Location:</strong> West Bengal, India</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 SoloTrades. All rights reserved.</p>
+      <p style="margin-top: 6px; font-size: 13px;">Designed for Google Play Developer Program Policy Compliance.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
